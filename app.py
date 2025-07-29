@@ -60,11 +60,11 @@ def upload_folder():
             outputinscreen = "Poaching is present and SMS regarding poaching is sent to concerned authorities" if finalmessage else "Poaching is not present and animals are safe"
 
             if finalmessage and poacher:
-                SID = "AC83d1bb9761c99d26eb9fce17576c6dd4"
-                auth_token = "1fe4f305098d12971a6a50c493ac860c"
+                SID = "your sid "
+                auth_token = "auth token"
         
-                target_phone_number = '+919620391977'
-                messaging_service_sid = 'MGbf783cfad47a72a506ade1c4f4623bca'
+                target_phone_number = '+phone number'
+                messaging_service_sid = 'msg service id generate from twilio '
 
                 try:
                     cl = Client(SID, auth_token)
